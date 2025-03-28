@@ -30,7 +30,7 @@ import Banner6 from "@/resources/banner6.webp";
         >
             <CarouselContent>
                 <CarouselItem className="w-full flex justify-center">
-                    <Image width={1200} height={600} src={Banner1} />
+                    <Image src={Banner1} />
                     </CarouselItem>
                 <CarouselItem className="w-full flex justify-center">
                 <Image src={Banner2} />
