@@ -3,6 +3,26 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@theme {
+  --color-white: #fff;
+  --color-background-principal: #F2F3F4;
+  --color-text-grey: #42464D;
+  --color-text-grey-mid: #565C69;
+  --color-text-grey-weak: #7F858D;
+  --color-filter-text: #3F3B3B;
+  --color-orange-strong: #E35214;
+  --color-orange-text: #FC6B0F;
+  --color-orange-weak: #FF6500;
+  --color-white: #FFFFFF;
+  --color-white-weak: #F5F5F5;
+  --color-blue: #0060b1;
+  --color-green: #2DC26E;
+  --color-green-text: #1F9050;
+  --color-red: #E72626;
+  --color-grey-trash-icon: #B6BBC2;
+  --color-grey-line: #DEE0E4;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -41,6 +61,7 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+  --test-color: var(--test);
 }
 
 :root {
