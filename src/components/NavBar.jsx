@@ -8,7 +8,7 @@ import logo from "@/resources/logo.svg";
 
 export default function Navbar() {
   return (
-    <header className="w-full bg-[#0060b1] shadow-md p-4">
+    <header className="w-full bg-blue shadow-md p-4">
       <div className="container mx-auto flex items-center justify-between">
         {/* Menu lateral (caso necessário) */}
         <Button variant="ghost" size="lg">
