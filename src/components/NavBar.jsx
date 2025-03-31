@@ -3,6 +3,7 @@
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Search, Menu, User, CircleUserRound } from "lucide-react";
+import ThemeToggle from "./ThemeToggle";
 import Image from "next/image";
 import logo from "@/resources/logo.svg";
 
@@ -27,22 +28,18 @@ export default function Navbar() {
           <Input
             type="text"
             placeholder="Aperte o k e busque aqui"
-            className="pl-10 bg-white"
+            className="pl-10 bg-input-bg-navbar"
           />
         </div>
 
-        <div className="container w-30 h-15 flex justify-left items-center">
-            <CircleUserRound className="text-white w-10 h-10" /> 
-            <span className="text-white text-xs"><strong>ENTRE</strong> ou <strong>CADASTRE-SE</strong></span>  
+        <div className="container w-30 h-15 flex justify-left items-center text-text-navbar">
+            <CircleUserRound className="w-10 h-10" /> 
+            <span className="text-xs"><strong>ENTRE</strong> ou <strong>CADASTRE-SE</strong></span>  
         </div>
 
         {/* Botões */}
         <div className="flex gap-2">
-          <Button variant="outline">Login</Button>
-          <Button>Cadastre-se</Button>
-          <Button variant="ghost" size="icon">
-            <User className="w-6 h-6" />
-          </Button>
+          <ThemeToggle />
         </div>
       </div>
     </header>
