@@ -13,14 +13,20 @@
   --color-orange-strong: #E35214;
   --color-orange-text: #FC6B0F;
   --color-orange-weak: #FF6500;
+  --color-main-campain: #F17A28;
   --color-white: #FFFFFF;
   --color-white-weak: #F5F5F5;
+  --color-white-mid: #fafafb;
   --color-blue: #0060b1;
+  --color-blue-strong: #003a6a;
+  --color-blue-footer: #004d8e;
   --color-green: #2DC26E;
   --color-green-text: #1F9050;
   --color-red: #E72626;
   --color-grey-trash-icon: #B6BBC2;
   --color-grey-line: #DEE0E4;
+  --color-text: #42464D;
+  --color-text-weak: #7F858D;
 }
 
 @theme inline {
