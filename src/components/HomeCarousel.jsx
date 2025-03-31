@@ -21,7 +21,7 @@ import Banner6 from "@/resources/banner6.webp";
   export default function HomeCarousel() {
     return (
         <Carousel
-        className="w-full max-w-9/10 flex justify-center"
+        className="w-full flex justify-center"
             plugins={[
                 Autoplay({
                 delay: 2000,
