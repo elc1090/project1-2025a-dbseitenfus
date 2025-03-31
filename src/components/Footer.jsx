@@ -1,6 +1,15 @@
 import { Button } from "./ui/button"
 import { Input } from "./ui/input"
-
+import Image from "next/image"
+const selos = [
+    { src: require("@/resources/selo1.png"), alt: "Selo 1" },
+    { src: require("@/resources/selo2.webp"), alt: "Selo 2" },
+    { src: require("@/resources/selo3.webp"), alt: "Selo 3" },
+    { src: require("@/resources/selo4.webp"), alt: "Selo 4" },
+    { src: require("@/resources/selo5.png"), alt: "Selo 5" },
+    { src: require("@/resources/selo6.png"), alt: "Selo 6" },
+    { src: require("@/resources/selo7.webp"), alt: "Selo 7" },
+  ];
 
 export default function Footer() {
 
@@ -108,8 +117,18 @@ export default function Footer() {
                     </ul>
                 ))}
             </div>
-            <div className="bg-white w-full h-[100px]"> 
-
+            <div className="bg-white flex justify-between items-center w-full h-[100px] p-10">
+                {selos.map((selo, index) => (
+                    <Image 
+                        className="max-h-[80px]"
+                        key={index}
+                        src={selo.src} 
+                        alt={selo.alt} 
+                        width={140} 
+                        height={80} 
+                        objectFit="contain" 
+                    />
+                ))}
             </div>
             <div className="bg-blue-800 w-full  p-8 flex flex-col justify-center items-center text-white"> 
                 <p><b>Uma empresa do grupo MAGALU</b></p>
