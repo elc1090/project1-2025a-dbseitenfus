@@ -19,21 +19,16 @@ import { Star } from 'lucide-react';
 
 export default function ProductCard() {
   return (
-    <Card className="w-[350px]">
-      <CardHeader>
-
-        <div className="flex flex-row-reverse items-center">
-            <p className="text-[10px] ml-1">(7)</p>
-            {Array.from({ length: 5 }).map((_, index) => (
-                <Star fill="orange" key={index} size={12} className="text-orange-600 ml-[3]" /> 
-            ))}
-
-            
+    <Card className="w-[268px] h-[478px] p-0 border border-gray-100 shadow-none">
+      <CardHeader className="p-0"> 
+        <div className="flex flex-row-reverse items-center pt-3 pr-2"> 
+          <p className="text-[10px] text-text-weak ml-1">(7)</p>
+          {Array.from({ length: 5 }).map((_, index) => (
+            <Star fill="currentColor" key={index} size={12} className="text-orange-weak ml-[3]" />
+          ))}
         </div>
-
-        
-      </CardHeader>
-      <CardContent>
+    </CardHeader>
+      <CardContent className="p-2">
         <div className="flex flex-col items-center">
         <Image
         src={Product1}
@@ -41,19 +36,19 @@ export default function ProductCard() {
         </div>
         
 
-        <span><strong>Console PlayStation 5 Slim Sony, SSD 1TB, Com Controle Sem Fio DualSense, Branco + 2 Jogos - 1000038899</strong></span><br></br>
+        <span className="text-text font-semibold line-clamp-3 text-[14px]">Console PlayStation 5 Slim Sony, SSD 1TB, Com Controle Sem Fio DualSense, Branco + 2 Jogos - 1000038899</span>
         <span className="text-[12px]"><s>R$ 4.499,90</s></span><br></br>  
         <div className="flex items-center">
-            <span className="text-[20px] text-orange-600 mr-2"><strong>R$ 3.719,07</strong></span>
-            <div className="bg-orange-600 text-white font-bold px-1 py-0 h-[20px] rounded-full text-[10px] leading-none flex items-center">-10%</div>
+            <span className="text-[20px] text-orange-weak mr-2"><strong>R$ 3.719,07</strong></span>
+            <div className="bg-orange-weak text-white font-bold px-1 py-0 h-[20px] rounded-full text-[10px] leading-none flex items-center">-10%</div>
         </div>
-        <div>
+        <div className="text-text-weak text-[12px]">
             À vista no PIX <br></br>
             <span>ou até <b>10x de R$183,33</b></span>
         </div>
       </CardContent>
-      <CardFooter className="flex w-full">
-        <Button className="w-full bg-orange-600">Comprar</Button>
+      <CardFooter className="flex w-full h-[38px] items-center pb-4 p-2">
+        <Button className="w-full h-[38px] bg-orange-weak mb-12 font-bold">COMPRAR</Button>
       </CardFooter>
     </Card>
   )
