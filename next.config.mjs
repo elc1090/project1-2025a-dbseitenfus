@@ -1,10 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export', // Gera arquivos HTML estáticos
-    basePath: '/project1-2025a-dbseitenfus', // Substitua pelo nome do seu repositório no GitHub
-    images: {
-      unoptimized: true, // Desabilita otimização de imagens (necessário para export estático)
-    },
+    output: 'export',
+   
+    // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
+    // trailingSlash: true,
+   
+    // Optional: Prevent automatic `/me` -> `/me/`, instead preserve `href`
+    // skipTrailingSlashRedirect: true,
+   
+    // Optional: Change the output directory `out` -> `dist`
+    // distDir: 'dist',
   };
   
   export default nextConfig;
