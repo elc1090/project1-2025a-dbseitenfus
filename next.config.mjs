@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: "export",  // <=== enables static exports
-    reactStrictMode: true,
+    output: 'export', // Gera arquivos HTML estáticos
+    basePath: '/project1-2025a-dbseitenfus', // Substitua pelo nome do seu repositório no GitHub
+    images: {
+      unoptimized: true, // Desabilita otimização de imagens (necessário para export estático)
+    },
   };
   
-  module.exports = nextConfig;
+  export default nextConfig;
