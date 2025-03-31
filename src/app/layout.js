@@ -3,6 +3,7 @@ import "./globals.css";
 
 import Navbar from "@/components/NavBar";
 import HomeNavigationMenu from "@/components/HomeNavigationMenu";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <HomeNavigationMenu />
         {children}
+        <Footer/>
       </body>
     </html>
   );
