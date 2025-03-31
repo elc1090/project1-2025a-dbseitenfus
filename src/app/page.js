@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <main className="flex justify-center">
-        <div className="bg-black flex flex-col justify-center container items-center">
+        <div className="flex flex-col justify-center w-full items-center pr-5 pl-5">
           <HomeCarousel />
 
           <HomeProductsSection />
