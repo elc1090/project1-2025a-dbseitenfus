@@ -54,7 +54,7 @@
   --color-text-navbar: #0a6789;
   --color-input-bg-navbar: #FFFFFF;
 
-  --color-white: #FFFFFF;
+  --color-white: #fff;
   --color-background-principal: #F2F3F4;
   --color-filter-text: #3F3B3B;
   --color-white-weak: #F5F5F5;
@@ -151,3 +151,4 @@
     @apply bg-background text-foreground;
   }
 }
+

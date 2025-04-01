@@ -28,7 +28,8 @@ export default function Navbar() {
           <Input
             type="text"
             placeholder="Aperte o k e busque aqui"
-            className="pl-10 bg-input-bg-navbar"
+            className="pl-10 bg-white dark:bg-white text-black dark:text-black"
+            autoComplete="off"
           />
         </div>
 
