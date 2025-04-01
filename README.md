@@ -1,66 +1,63 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/-0GsTofh)
 # Projeto: Remake de site/app web
 
-> 1. Leia com atenção as instruções abaixo para editar este README em formato Markdown.
-> 2. Substitua todos os trechos de texto iniciados com "Substitua" por informações do seu projeto, conforme solicitado em cada trecho.
-> 3. Substitua a imagem por um screenshot do projeto (o arquivo pode ser armazenado no repositório ou em URL externa). GIFs animados também são permitidos!
-> 4. Remova todas as instruções de entrega.
-> 5. Double-check: Certifique-se de que seu README.md não contenha instruções de entrega!
-> 6. Entregue este README.md dentro da pasta raiz do seu repositório de entrega. Peça ajuda se não souber como editar ou entregar!
-> Opcional: você pode alterar a formatação do README, mas mantenha todas as informações solicitadas
+<img width="1492" alt="Screenshot 2025-03-31 at 23 44 04" src="https://github.com/user-attachments/assets/3dfaab8c-de82-4b63-bc04-5c03f0eefaea" />
+<img width="1489" alt="Screenshot 2025-03-31 at 23 44 32" src="https://github.com/user-attachments/assets/f235b270-1df1-4780-a5ec-8c6c44d8f3cc" />
+<img width="1489" alt="Screenshot 2025-03-31 at 23 45 04" src="https://github.com/user-attachments/assets/403beb3d-bd74-49c6-b292-e5183a9fe32d" />
 
-![Substitua a imagem ao lado por um screenshot do seu projeto](img/chops-ux-step-4.png "Screenshot do projeto. Imagem temporária extraída de https://mdswanson.com/static/chops-ux-step-4.png")
-
-
-Acesso: Substitua este texto pela URL para acesso ao site publicado
+Acesso: [https://project1-2025a-dbseitenfus-kqro3y46x-dbseitenfus-projects.vercel.app/](https://project1-2025a-dbseitenfus-kqro3y46x-dbseitenfus-projects.vercel.app/)
 
 
 #### Desenvolvedor(a)
-Substitua este texto pela sua identificação: nome e curso
+
+Daniel Seitenfus, Ciência da Computação
 
 #### Cliente
-Substitua este texto pela identificação do cliente
 
-
+Dante Santos
 
 
 #### Site/app original
 
 ##### Link
-Substitua este texto pela URL do site/app escolhido
+
+[https://www.kabum.com.br/](https://www.kabum.com.br/)
 
 ##### Descrição
-Substitua este texto por uma descrição do site/app escolhido. Inclua observações sobre seu conteúdo, aparência e código.
+
+O site original da Kabum é uma loja virtual especializada em tecnologia e eletrônicos. Possui uma interface bonita, chamativa e com cores vibrantes, mas, ainda sim, menos poluída em comparação com concorrentes.
 
 #### Demanda do(a) cliente
-Substitua este texto pela demanda do(a) cliente
+
+- Alterar a paleta de cores da pagina para uma de sua escolha
+- Manter a footer do site igual (menos as cores)
 
 #### Desenvolvimento
 
-Substitua este texto por uma descrição do processo de desenvolvimento, explicando suas escolhas para o remake e etapas do trabalho (por exemplo, como foi coletado o conteúdo, como você lidou com as demandas, etc.)
+- O desenvolvimento do site foi tranquilo. Tentei priorizar a replicação bem próxima do site original e depois aplicar as alterações do cliente, assim, fui avaliando de forma mais fácil o quão parecido com o original o site remake estava ficando.
+- Eu escolhi desenvolver utilizando Next.js, pois era um framework que já estava na minha lista de estudos futuros.
+- O cliente solicitou uma demanda de colocar fotos de animais no lugar dos produtos. Conversamos sobre e achamos melhor manter as imagens dos produtos originais.
 
 
 #### Tecnologias
 
-Substitua este trecho por uma lista detalhada de tecnologias usadas (tanto as básicas, como HTML e CSS, como as mais específicas, por exemplo Tailwind, etc.):
-- ...
-- ...
-- 
+- Next.js
+- React.js,
+- Tailwind CSS,
+- ShadCN UI
+- Javascript
+- Lucide React
 
 #### Ambiente de desenvolvimento
 
-Substitua este trecho por uma lista detalhada dos ambientes/ferramentas de desenvolvimento que você usou (por exemplo, VS Code + alguma extensão, etc.)
-- ...
-- ...
+- VS Code
 
 #### Referências e créditos
 
-Substitua este trecho por uma lista bem detalhada de todo material que você consultou para ajudar no projeto, por exemplo:  URL de templates usados, URL de icon kits usados, créditos para colegas que colaboraram, geradores de código (incluindo alguns prompts usados para o ChatGPT, se for o caso)
-- ...
-- ...
-
-
-
+- https://ui.shadcn.com/docs/installation
+- https://www.radix-ui.com/themes/docs/overview/getting-started
+- https://vercel.com/ (para deploy)
+- https://lucide.dev/guide/packages/lucide-react
 
 ---
 Projeto entregue para a disciplina de [Desenvolvimento de Software para a Web](http://github.com/andreainfufsm/elc1090-2025a) em 2025a
