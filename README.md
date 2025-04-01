@@ -26,14 +26,13 @@ Dante Santos
 O site original da Kabum é uma loja virtual especializada em tecnologia e eletrônicos. Possui uma interface bonita, chamativa e com cores vibrantes, mas, ainda sim, menos poluída em comparação com concorrentes.
 
 #### Demanda do(a) cliente
-Alterar a paleta de cores da pagina para uma de sua escolha
-Manter a footer do site igual (menos as cores)
+- Alterar a paleta de cores da pagina para uma de sua escolha
+- Manter a footer do site igual (menos as cores)
 
 #### Desenvolvimento
-Substitua este texto por uma descrição do processo de desenvolvimento, explicando suas escolhas para o remake e etapas do trabalho (por exemplo, como foi coletado o conteúdo, como você lidou com as demandas, etc.)
-O desenvolvimento do site foi tranquilo. Tentei priorizar a replicação bem próxima do site original e depois aplicar as alterações do cliente, assim, fui avaliando de forma mais fácil o quão parecido com o original o site remake estava ficando.
-Eu escolhi desenvolver utilizando Next.js, pois era um framework que já estava na minha lista de estudos futuros.
-O cliente solicitou uma demanda de colocar fotos de animais no lugar dos produtos. Conversamos sobre e achamos melhor manter as imagens dos produtos originais.
+- O desenvolvimento do site foi tranquilo. Tentei priorizar a replicação bem próxima do site original e depois aplicar as alterações do cliente, assim, fui avaliando de forma mais fácil o quão parecido com o original o site remake estava ficando.
+- Eu escolhi desenvolver utilizando Next.js, pois era um framework que já estava na minha lista de estudos futuros.
+- O cliente solicitou uma demanda de colocar fotos de animais no lugar dos produtos. Conversamos sobre e achamos melhor manter as imagens dos produtos originais.
 
 
 #### Tecnologias
