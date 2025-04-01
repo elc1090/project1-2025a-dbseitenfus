@@ -13,7 +13,7 @@ export default function HomeProductsSection() {
     return (
         <div className="flex flex-col w-full"> {/* Ajustado a altura mínima */}
             <div className="bg-main-campain flex justify-between items-center w-full h-[66px] pr-[32px] pl-[32px] font-bold">
-                <h2 className="text-white text-[20px]">  FESTIVAL DE OFERTAS</h2>
+                <h2 className="text-white text-[20px]">FESTIVAL DE OFERTAS</h2>
                 <h2 className="text-white text-[20px] flex items-center">
                     TERMINA EM: 
                     <Clock className="w-5 h-5 ml-2" />
