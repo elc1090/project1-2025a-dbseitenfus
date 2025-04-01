@@ -5,7 +5,7 @@
 <img width="1489" alt="Screenshot 2025-03-31 at 23 44 32" src="https://github.com/user-attachments/assets/f235b270-1df1-4780-a5ec-8c6c44d8f3cc" />
 <img width="1489" alt="Screenshot 2025-03-31 at 23 45 04" src="https://github.com/user-attachments/assets/403beb3d-bd74-49c6-b292-e5183a9fe32d" />
 
-Acesso: [https://project1-2025a-dbseitenfus-kqro3y46x-dbseitenfus-projects.vercel.app/](https://project1-2025a-dbseitenfus-kqro3y46x-dbseitenfus-projects.vercel.app/)
+Acesso: [https://project1-2025a-dbseitenfus.vercel.app/](https://project1-2025a-dbseitenfus.vercel.app/)
 
 
 #### Desenvolvedor(a)
